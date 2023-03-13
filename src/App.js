@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes ,Redirect} from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,redirect} from 'react-router-dom';
 import './App.css';
 import Home from "./components/Home/Home"
 import Navbar from './components/Navbar/Navbar';
@@ -19,10 +19,7 @@ function App() {
       <Provider store={store}>
         <Navbar/>
         <Routes>
-        <Redirect exact from="/" to="/home" />
-            <Route path="/home">
-              <Home />
-            </Route>
+          <Route path='/' element={<Home/>} exact />
           <Route path='/favor' element={<Favor/>}/>
           <Route path='/watched' element={<Watched/>}/>
           <Route path='/WatchList' element={<WatchList/>}/>
