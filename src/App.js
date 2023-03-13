@@ -15,21 +15,7 @@ function App() {
   
   return (
   <>
-    <BrowserRouter>
-      <Provider store={store}>
-        <Navbar/>
-        
-        <Routes>
-          <Route path='/home' element={<Home/>}/>
-          <Route path='/favor' element={<Favor/>}/>
-          <Route path='/watched' element={<Watched/>}/>
-          <Route path='/WatchList' element={<WatchList/>}/>
-        </Routes>
-        <BtnUp/>
-        <Footer/>
-      </Provider>
-        
-    </BrowserRouter>
+    
   </>
   );
 }
