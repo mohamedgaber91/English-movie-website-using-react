@@ -1,0 +1,67 @@
+:root{
+    --main-background:rgb(40, 40, 60);
+}
+.our-navbar{
+    background-color: var(--main-background);
+    padding-top: 27px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+ .nav-item{
+   margin-right: 105px;
+}
+
+
+
+.nav-link.active  {
+    background-color: white;
+    padding: 9px;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color:white;;
+}
+ a {
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    white-space: nowrap
+}
+.nav-link{
+    color: white;
+    position: relative;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    border: 1px solid white;
+    line-height: 1;
+    color: white;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+@media (max-width:1000px ) {
+    .nav-item{
+        margin-bottom: 20px;
+    }
+
+}
+.number,.watched-number{
+    color: #f5ebeb;
+    border: 1px solid white;
+    margin-left: 6px;
+    position: absolute;
+    background-color: #d38824;
+    left: 100%;
+    padding: 1px 11px 2px 12px;
+    border-radius: 50%;
+}
+

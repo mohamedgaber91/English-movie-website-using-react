@@ -1,0 +1,12 @@
+.btn-up{
+    position: fixed;
+    top: 500px;
+    right: 0;
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+    background-color: rgb(40, 40, 60);
+    color: white;
+    font-size: 25px;
+    z-index: 1000;
+}

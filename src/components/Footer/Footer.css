@@ -1,0 +1,10 @@
+.our-footer{
+    background-color: rgb(40, 40, 60);
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 250px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
