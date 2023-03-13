@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes ,RedirectFunction} from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,Redirect} from 'react-router-dom';
 import './App.css';
 import Home from "./components/Home/Home"
 import Navbar from './components/Navbar/Navbar';
@@ -19,7 +19,7 @@ function App() {
       <Provider store={store}>
         <Navbar/>
         <Routes>
-        <RedirectFunction exact from="/" to="/home" />
+        <Redirect exact from="/" to="/home" />
             <Route path="/home">
               <Home />
             </Route>
