@@ -5,14 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border: 1px solid red;
+ 
 }
-*{
-  border: 1px solid black;
-}
-.container{
-  border: 1px solid blue;
-}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
