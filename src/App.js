@@ -19,7 +19,7 @@ function App() {
       <Provider store={store}>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Home/>} exact/>
           <Route path='/favor' element={<Favor/>}/>
           <Route path='/watched' element={<Watched/>}/>
           <Route path='/WatchList' element={<WatchList/>}/>
