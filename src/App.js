@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes ,redirect} from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,Navigate} from 'react-router-dom';
 import './App.css';
 import Home from "./components/Home/Home"
 import Navbar from './components/Navbar/Navbar';
@@ -10,15 +10,20 @@ import { Provider, useSelector } from 'react-redux';
 import { store } from './components/Redux/stores/data';
 import BtnUp from './components/btnUp/btnUp';
 import Footer from './components/Footer/Footer';
+import { useEffect } from 'react';
 
 function App() {
-  
+ 
+ 
   return (
   <>
     <BrowserRouter>
       <Provider store={store}>
+       
         <Navbar/>
         <Routes>
+        
+          <Route path='/English-movie-website-using-react' element={<Home/>} exact />
           <Route path='/' element={<Home/>} exact />
           <Route path='/favor' element={<Favor/>}/>
           <Route path='/watched' element={<Watched/>}/>
