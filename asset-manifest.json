@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/English-movie-website-using-react/static/css/main.c2203f1f.css",
-    "main.js": "/English-movie-website-using-react/static/js/main.1cbcee49.js",
-    "static/js/787.28cb0dcd.chunk.js": "/English-movie-website-using-react/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/English-movie-website-using-react/index.html",
-    "main.c2203f1f.css.map": "/English-movie-website-using-react/static/css/main.c2203f1f.css.map",
-    "main.1cbcee49.js.map": "/English-movie-website-using-react/static/js/main.1cbcee49.js.map",
-    "787.28cb0dcd.chunk.js.map": "/English-movie-website-using-react/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/English-movie-website-using-react/home/static/css/main.c2203f1f.css",
+    "main.js": "/English-movie-website-using-react/home/static/js/main.f0a69ba4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/English-movie-website-using-react/home/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/English-movie-website-using-react/home/index.html",
+    "main.c2203f1f.css.map": "/English-movie-website-using-react/home/static/css/main.c2203f1f.css.map",
+    "main.f0a69ba4.js.map": "/English-movie-website-using-react/home/static/js/main.f0a69ba4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/English-movie-website-using-react/home/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2203f1f.css",
-    "static/js/main.1cbcee49.js"
+    "static/js/main.f0a69ba4.js"
   ]
 }
