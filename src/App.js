@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
       <Provider store={store}>
         <Navbar/>
-        <Home/>
+        
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/favor' element={<Favor/>}/>
