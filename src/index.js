@@ -17,20 +17,7 @@ import WatchList from './components/WatchList/WatchList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Provider store={store}>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/favor' element={<Favor/>}/>
-          <Route path='/watched' element={<Watched/>}/>
-          <Route path='/WatchList' element={<WatchList/>}/>
-        </Routes>
-        <BtnUp/>
-        <Footer/>
-      </Provider>
-        
-    </BrowserRouter>
+    <App/>
   </React.StrictMode>
 );
 
